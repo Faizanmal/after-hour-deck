@@ -1,0 +1,13 @@
+.env
+backend/.env
+backend/clinic.db
+backend/**/__pycache__/
+backend/.venv/
+.venv/
+venv/
+node_modules/
+frontend/.next/
+frontend/out/
+*.pyc
+.DS_Store
+.ruff_cache/

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #efe6d4;
+  --ink: #1c1914;
+  --pine: #13403c;
+  --pine-deep: #0c2a28;
+  --moss: #2f6f68;
+  --gold: #c9a24a;
+  --live: #c4492a;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-pine: var(--pine);
+  --color-pine-deep: var(--pine-deep);
+  --color-moss: var(--moss);
+  --color-gold: var(--gold);
+  --color-live: var(--live);
+  --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-newsreader);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  min-height: 100%;
+}
+
+.display {
+  font-family: var(--font-newsreader), ui-serif, Georgia, serif;
+}
